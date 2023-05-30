@@ -4,7 +4,7 @@ import axios from "axios"
 import moment from 'moment'
 
 export default function LoginHistory() {
-  const [data, setData] = useState([])
+  const [data, setData] = useState([]);
 
   useEffect(() => {
     const token = JSON.parse(localStorage.getItem("token"))
