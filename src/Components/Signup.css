@@ -1,0 +1,25 @@
+.ct_pass{
+    position: relative;
+}
+.ct_pass_eye{
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+}
+.ct_logo{
+    font-size: 30px;
+    font-weight: 700;
+    max-width: 60rem;
+    margin-inline: auto;
+}
+
+.Toastify__toast-container--top-right {
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 7%;
+}
+.Toastify__progress-bar-theme--light {
+  
+    background: #3e9c46 !important;
+}
